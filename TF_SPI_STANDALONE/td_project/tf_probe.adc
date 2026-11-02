@@ -1,0 +1,11 @@
+# HX1P35A PDF manual p.24, 3.3V MicroSD pins; verify against board schematic.
+set_pin_assignment { I_sys_clk } { LOCATION = C4; IOSTANDARD = LVCMOS33; PULLTYPE = PULLUP; }
+set_pin_assignment { I_rst_n } { LOCATION = D5; IOSTANDARD = LVCMOS33; PULLTYPE = PULLUP; }
+set_pin_assignment { SD_CLK } { LOCATION = A7; IOSTANDARD = LVCMOS33; DRIVESTRENGTH = 8; }
+set_pin_assignment { SD_CMD } { LOCATION = A8; IOSTANDARD = LVCMOS33; DRIVESTRENGTH = 8; }
+set_pin_assignment { SD_DAT3 } { LOCATION = B12; IOSTANDARD = LVCMOS33; DRIVESTRENGTH = 8; }
+set_pin_assignment { SD_DAT0 } { LOCATION = E8; IOSTANDARD = LVCMOS33; PULLTYPE = PULLUP; }
+set_pin_assignment { LED1 } { LOCATION = D10; IOSTANDARD = LVCMOS33; DRIVESTRENGTH = 8; }
+set_pin_assignment { LED2 } { LOCATION = E10; IOSTANDARD = LVCMOS33; DRIVESTRENGTH = 8; }
+set_pin_assignment { LED3 } { LOCATION = C6; IOSTANDARD = LVCMOS33; DRIVESTRENGTH = 8; }
+set_pin_assignment { LED4 } { LOCATION = D6; IOSTANDARD = LVCMOS33; DRIVESTRENGTH = 8; }
